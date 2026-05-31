@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/brewwery-banner.jpg" alt="Brewwery — A visual Homebrew manager for macOS" width="100%" />
+  <img src="./assets/banner.jpg" alt="Brewwery — A visual Homebrew manager for macOS" width="100%" />
 </p>
 
 <h1 align="center">🍺 Brewwery</h1>
