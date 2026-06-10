@@ -1,17 +1,20 @@
 <p align="center">
-  <img src="./assets/brewwery.png" alt="Brewwery — A visual Homebrew manager for macOS" width="100%" />
+  <img src="./assets/brewwery.png" alt="Brewwery — macOS GUI for Homebrew" width="100%" />
 </p>
 
-<h1 align="center">🍺 Brewwery</h1>
+<h3 align="center">MacOS GUI for Homebrew.</h3>
 
 <p align="center">
-  <strong>A visual Homebrew manager for macOS.</strong>
+  Packages, casks, services, updates, and diagnostics — in one interface.<br/>
+  Open source · Local-first · Zero telemetry · MIT
 </p>
 
 <p align="center">
   <a href="https://www.brewwery.com">Website</a>
   ·
-  <a href="https://github.com/brewwery/brewwery">GitHub</a>
+  <a href="https://docs.brewwery.com">Docs</a>
+  ·
+  <a href="https://github.com/brewwery/brewwery">App</a>
   ·
   <a href="https://github.com/brewwery/brewwery/issues">Issues</a>
 </p>
@@ -20,34 +23,32 @@
 
 ## What is Brewwery?
 
-**Brewwery** is an open-source macOS desktop app for managing Homebrew packages, casks, services, updates, cleanup, diagnostics, and Brewfiles from one clean visual interface.
-
-It is built for developers who want a safer and more comfortable way to inspect, maintain, and understand their local macOS environment.
+**Brewwery** is an open-source macOS desktop app that gives you a visual interface for everything Homebrew manages. Instead of memorizing terminal commands, you get a clean UI with sidebar navigation, package lists, one-click updates, service controls, and diagnostic tools.
 
 ## Features
 
-- Browse installed formulae and casks
-- Search and inspect Homebrew packages
-- Check outdated packages and apply upgrades
-- Manage Homebrew services
-- Preview and run cleanup safely
-- Run `brew doctor` and inspect diagnostics
-- Export and manage Brewfiles
-- View Homebrew prefix, version, architecture, and system info
-- Open Terminal from the current context
+- Browse installed formulae and casks with search, sort, and filters
+- Discover and install new packages with rich metadata and live progress
+- Check outdated packages and upgrade individually or all at once
+- Manage Homebrew services — start, stop, restart
+- Preview disk savings and run cleanup safely
+- Run `brew doctor` and inspect diagnostics visually
+- Export and inspect Brewfiles
+- Full operation history with search and JSON export
+- System, Dark, and Light themes
+- Custom Homebrew path support
 
-## Stack
+## Repositories
 
-| Layer | Technology |
+| Repo | Description |
 |---|---|
-| Frontend | React · TypeScript · Vite · Tailwind CSS · shadcn/ui |
-| Desktop shell | Electron |
-| System core | Rust · napi-rs |
-| State | Zustand |
-| License | MIT |
+| [brewwery/brewwery](https://github.com/brewwery/brewwery) | Main app — Electron + React + Rust |
+| [brewwery/docs](https://github.com/brewwery/docs) | Documentation site — docs.brewwery.com |
 
 ---
 
 <p align="center">
-  Open source. Built for macOS developers.
+  <a href="https://www.brewwery.com">brewwery.com</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:pint@brewwery.com">pint@brewwery.com</a>
 </p>
