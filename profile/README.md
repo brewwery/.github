@@ -29,6 +29,7 @@
 
 - Browse installed formulae and casks with search, sort, and filters
 - Discover and install new packages with rich metadata and live progress
+- Save favorites — mark packages for quick access from a dedicated Favorites view
 - Check outdated packages and upgrade individually or all at once
 - Manage Homebrew services — start, stop, restart
 - Preview disk savings and run cleanup safely
